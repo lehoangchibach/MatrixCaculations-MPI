@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name="lab2_5000_48"
+#SBATCH --output="5000_48.%j.%N_lab2.out"
+#SBATCH --partition=compute
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=48
+#SBATCH --export=ALL
+#SBATCH -t 01:00:00
+
+
+$HOME/lab-2-openmp-lehoangchibach/lab2 5000 
+
