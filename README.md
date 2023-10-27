@@ -1,0 +1,1 @@
+# parallel_computing_lab2_openmp
